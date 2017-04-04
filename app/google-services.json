@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "459884699055",
+    "firebase_url": "https://shamba-2eb0d.firebaseio.com",
+    "project_id": "shamba-2eb0d",
+    "storage_bucket": "shamba-2eb0d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:459884699055:android:b6b457ddf94d54d7",
+        "android_client_info": {
+          "package_name": "com.example.zack.shamba"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "459884699055-sum906s7a7t2rfbkcge019mo2mlv1tsb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyADsJyqYGl12PhFU0IU5Y8kK7VI9KkAMbM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

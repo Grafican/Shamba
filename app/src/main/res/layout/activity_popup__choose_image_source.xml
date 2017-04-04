@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/toPopUpWindow"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_margin="3dp"
+        android:layout_height="wrap_content">
+    <TableLayout
+        android:layout_width="match_parent"
+        android:padding="5dp"
+        android:layout_height="wrap_content">
+
+        <TableRow android:id="@+id/galleryPhoto">
+
+            <ImageView
+                android:id="@+id/imageFromGallery"
+                android:src="@mipmap/ic_action_picture" />
+
+            <TextView
+                android:id="@+id/imageGallery"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="20dp"
+                android:text="Choose from gallery"
+                android:textColor="@color/black" />
+        </TableRow>
+
+        <TableRow android:id="@+id/cameraPhoto">
+
+            <ImageView
+                android:id="@+id/imageFromCamera"
+                android:src="@mipmap/ic_action_camera" />
+
+            <TextView
+                android:id="@+id/imageCamera"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="20dp"
+                android:text="Take a Picture"
+                android:textColor="@color/black" />
+        </TableRow>
+
+        <TableRow android:id="@+id/removePic">
+
+            <ImageView
+
+                android:id="@+id/removeImage"
+                android:src="@mipmap/ic_action_cancel" />
+
+            <TextView
+                android:id="@+id/removeImagefromView"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="20dp"
+                android:text="Remove Photo"
+                android:textColor="@color/black" />
+        </TableRow>
+    </TableLayout>
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>
